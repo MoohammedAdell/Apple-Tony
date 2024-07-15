@@ -1,0 +1,755 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* color: aliceblue; */
+}
+a {
+  text-decoration: none;
+}
+header {
+  background-color: rgb(37, 37, 37);
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+}
+nav {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+  width: 60%;
+  height: 75px;
+  margin: 0 auto;
+  position: relative;
+}
+.boxs {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 30px;
+}
+.logo {
+  font-size: 25px;
+}
+.boxs a {
+  color: #6c757d;
+  font-size: 17px;
+  transition: all ease-in-out 0.3s;
+}
+
+nav i {
+  color: #6c757d;
+  transition: all ease-in-out 0.3s;
+}
+.boxs a:hover,
+nav i:hover {
+  color: rgb(230, 232, 233);
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.icons a {
+  padding-right: 20px;
+}
+.all {
+  display: flex;
+  position: absolute;
+  z-index: 5;
+  top: 75px;
+  background-color: rgba(37, 37, 37, 0.861);
+  width: 100000%;
+  left: -310px;
+  padding-left: 350px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  display: none;
+}
+.store:hover .all,
+.Mac:hover .all,
+.IPad:hover .all,
+.Watch:hover .all,
+.iphone:hover .all,
+.AirPods:hover .all,
+.TV:hover .all,
+.Entertinment:hover .all {
+  display: flex;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+}
+.all a {
+  display: block;
+  margin-bottom: 15px;
+  color: #f8f9fa;
+  transition: all ease-in-out 0.3s;
+}
+.all a:hover {
+  color: rgb(56, 56, 243);
+  margin-left: 5px;
+}
+.one,
+.two,
+.three,
+.four,
+.five,
+.sex,
+.sevin,
+.nine {
+  margin-right: 100px;
+  display: flex;
+}
+.all h4 {
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  color: #6c757d;
+}
+/* header two */
+.header-2 {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 100px 0 25px 0;
+  display: flex;
+  justify-content: center;
+}
+.header-2 h4 {
+  /* font-size: 15px; */
+  font-weight: 400;
+}
+.shop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.shop a,
+.shop i {
+  color: blue;
+}
+.section-one {
+  background: url(imgs/iphone14_yellow.jpg);
+  height: 590px;
+  background-position: center;
+  background-size: 1078px 698px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.container {
+  /* position: absolute; */
+  /* top: 35px;
+  left: 620px; */
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container h1 {
+  font-size: 45px;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+  font-weight: 400;
+}
+section .p-1 {
+  font-size: 18px;
+  font-weight: 500;
+}
+section .p-2 {
+  font-size: 22px;
+  padding: 5px;
+}
+section .p-3 {
+  opacity: 0.6;
+  margin-bottom: 10px;
+  font-size: 18px;
+  margin-top: 5px;
+}
+.shop555 {
+  display: flex;
+  justify-content: space-between;
+  width: 290px;
+  opacity: 0.8;
+}
+.shop555 .shop-icon a,
+.shop555 .shop-icon i,
+.shop555 .shop-only a,
+.shop555 .shop-only i {
+  color: rgb(77, 77, 255);
+}
+.section-two {
+  height: 640px;
+  background-color: black;
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-two {
+  /* position: absolute;
+  top: 35px;
+  left: 380px; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.section-two .img {
+  text-align: center;
+  margin-top: 60px;
+}
+.section-two .img img {
+  height: 400px;
+}
+.container-two h1 {
+  font-size: 55px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+.container-two p {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.section-three {
+  height: 500px;
+  background-color: black;
+  /* position: relative; */
+  margin-top: 20px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: flex-start; */
+  /* text-align: center; */
+}
+.container-three {
+  /* position: absolute;
+    top: 35px;
+    left: 380px; */
+
+  /* padding-top: 41px; */
+  padding-top: 40px;
+  text-align: center;
+
+  color: white;
+}
+.imgg {
+  background-image: url(imgs/apple_watch.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  cursor: pointer;
+}
+.container-three .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  font-size: 36px;
+  padding-bottom: 15px;
+}
+.container-three .title i {
+  padding-right: 20px;
+  font-size: 40px;
+}
+.container-three .title h1 {
+  font-weight: bold;
+}
+.container-three span {
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: rgb(189, 43, 43);
+  padding-bottom: 40px;
+}
+.container-three .p-2-1 {
+  font-size: 25px;
+  padding: 10px 0;
+  font-weight: bold;
+}
+.shopp {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  opacity: 0.8;
+}
+.shopp .shop-iconn {
+    margin-right: 200px;
+  }
+.shopp .shop-iconn a,
+.shopp .shop-iconn i,
+.shopp .shop-onlyy a,
+.shopp .shop-onlyy i {
+  color: rgb(0, 0, 255);
+  font-weight: bold;
+}
+.boxes {
+  width: 100%;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.box-111 {
+  width: 100%;
+  background-image: url(imgs/taplets_ipad.jpg);
+  height: 500px;
+  background-position: bottom;
+  background-size: cover;
+  /* background-color: red; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 40px;
+}
+.box-222 {
+  width: 100%;
+  color: white;
+  background-image: url(imgs/lap_blackk.jpg);
+  height: 500px;
+  background-position: bottom;
+  background-size: cover;
+  /* background-color: red; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 40px;
+}
+.box-333 {
+  width: 100%;
+  color: white;
+  background-image: url(imgs/promo_homepod.jpg);
+  height: 500px;
+  background-position: bottom;
+  background-size: cover;
+  /* background-color: red; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 40px;
+}
+.box-444 {
+  width: 100%;
+  color: white;
+  background-image: url(imgs/promo_airpods.jpg);
+  height: 500px;
+  background-position: bottom;
+  background-size: cover;
+  /* background-color: red; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 40px;
+}
+.box-555 {
+  width: 100%;
+  color: black;
+  background-image: url(imgs/apple-fitness.jpg);
+  height: 500px;
+  background-position: bottom;
+  background-size: cover;
+  /* background-color: red; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 40px;
+}
+.box-666 {
+  width: 100%;
+  color: black;
+  background-image: url(imgs/tile__cauwwcyyn9hy_large.jpg);
+  height: 500px;
+  background-position: bottom;
+  background-size: cover;
+  /* background-color: red; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 40px;
+}
+.four {
+  width: 100%;
+}
+.contant {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contant h1 {
+  font-size: 35px;
+  padding-bottom: 15px;
+}
+.contant p {
+  font-size: 20px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  padding-bottom: 20px ;
+}
+.linkat {
+  display: flex;
+  justify-content: space-evenly;
+}
+.link-one,
+.link-two {
+  color: blue;
+}
+.link-three a,
+.link-three i {
+  color: white;
+}
+.linkat a {
+  color: black;
+}
+.link-one {
+  padding-right: 250px;
+}
+.bg-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+.bg-img img {
+  width: 80%;
+  background-position: center;
+  background-size: contain;
+}
+footer {
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footerr {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  width: 80%;
+  border-top: 1px solid #eee;
+  margin: 20px auto;
+  position: relative;
+  padding-top: 20px;
+}
+
+.footerr ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.footerr a {
+  color: #73777b7a;
+  font-weight: 400;
+  transition: all ease-in-out 0.3s;
+}
+.footerr a:hover {
+  color: rgba(0, 0, 0, 0.919);
+  text-decoration: solid;
+  margin-left: 10px;
+}
+.footerr ul li {
+  padding-bottom: 10px;
+}
+.foot-1,
+.foot-2 {
+  margin-bottom: 5px;
+}
+.p {
+  margin: 50px auto 0 ;
+  width: 80%;
+  padding-bottom: 15px;
+  color: #6c757d;
+  border-bottom: 1px solid #eee;
+}
+.p span {
+  color: blue;
+  cursor: pointer;
+  text-decoration-line: underline;
+}
+.footeer {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footeer .copyright p {
+  opacity: 0.7;
+  font-size: 15px;
+}
+.footeer ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.footeer ul li {
+  padding-right: 20px;
+  position: relative;
+}
+.o::after {
+  position: absolute;
+  content: "";
+  right: -10px;
+  bottom: 0;
+  background-color: #6c757d7c;
+  width: 1.2px;
+  height: 130%;
+}
+.o {
+  position: relative;
+}
+.footeer ul li a {
+  color: #6c757d;
+  font-size: 14px;
+  transition: all ease-in-out 0.3s;
+}
+.footeer ul li a:hover {
+  color: rgba(53, 9, 231, 0.919);
+  text-decoration-line: underline;
+  scale: 0.5;
+}
+.footeer span {
+  opacity: 0.8;
+}
+#list {
+  display: none;
+}
+#close {
+  display: none;
+  font-size: 25px;
+}
+
+@media (max-width: 1110px) {
+    .contant h1{
+        font-size: 28px;
+    }
+    .contant p{
+        font-size: 15px;
+      }
+      .linkat{
+        /* display: flex; */
+        margin-top: 15px;
+      }
+      .link-one {
+        padding-right: 150px;
+      }
+  body {
+    position: relative;
+  }
+  .footeer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .footeer ul{
+    margin: 10px 0;
+    flex-direction: column;
+  }
+  .footeer ul li{
+    padding-bottom: 15px;
+  }
+  .all {
+    display: flex;
+    position: absolute;
+    z-index: 5;
+    top: 0px;
+    background-color: rgba(37, 37, 37, 0.861);
+    width: 100000%;
+    left: -310px;
+    height: 100%;
+    padding-left: 350px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: none;
+  }
+  .o::after{
+    position: absolute;
+  content: "";
+  right: -10px;
+  bottom: 0;
+  background-color: #6c757d7c;
+  width: 0px;
+  height: 130%;
+  }
+ 
+  #list {
+    display: block;
+  }
+  #list i {
+    font-size: 23px;
+  }
+  header {
+    z-index: 5555555;
+  }
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+  }
+  nav .boxs {
+    position: fixed;
+    left: 0;
+    padding-left: 40px;
+    top: 75px;
+    width: 100%;
+    height: 100%;
+    /* padding-left: 400px; */
+    flex-direction: column;
+    background-color: rgb(37, 37, 37);
+    /* z-index: 102888888; */
+    display: none;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    animation: fade 0.3s;
+  }
+}
+@media (max-width: 750px) {
+  .header-2 {
+    width: 100%;
+    padding-left: 10px;
+  }
+  .header-2 h4 {
+    font-size: 12px;
+  }
+  .header-2 .shop a {
+    font-size: 13px;
+  }
+  .p {
+    margin: 50px 50px 0 ;
+    width: 100%;
+    font-size: 13px;
+  }
+  .boxes {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .p {
+    width: 60%;
+  }
+  .section-two .img img {
+    height: 330px;
+  }
+}
+@media (max-width: 661px) {
+
+  .section-two .img img {
+    height: 270px;
+  }
+}
+@media (max-width: 551px) {
+
+  .section-two .img img {
+    height: 220px;
+  }
+  .header-2 h4 {
+    font-size: 10px;
+  }
+  .contant h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .contant p{
+    font-size: 15px;
+  }
+  .linkat{
+    /* display: flex; */
+    margin-top: 15px;
+  }
+  .link-one {
+    padding-right: 150px;
+  }
+}
+@media (max-width: 448px) {
+
+  .section-two .img img {
+    height: 170px;
+  } 
+  .container-two h1{
+    font-size: 30px;
+  }
+  .container-two p{
+    font-size: 24px;
+  }
+  .container-three .title i{
+    font-size: 26px;
+  }
+  .container-three .title h1{
+    font-size: 38px;
+  }
+  .container-three p span{
+    font-size: 21px;
+  }
+  .container-three .p-2-1{
+    font-size: 16px;
+  }
+  .shopp .shop-iconn {
+
+    margin-right: 100px;
+  }
+  .shopp{
+    margin-top: 10px;
+  }
+}
+@media (max-width: 350px) {
+
+  .section-two .img img {
+    height: 140px;
+  }
+}
+@media (max-width: 310px) {
+
+  .section-two .img img {
+    height: 140px;
+  }
+  .contant h1{
+    font-size: 22px;
+}
+.contant p{
+    font-size: 13px;
+  }
+  .linkat{
+    /* display: flex; */
+    margin-top: 15px;
+  }
+  .link-one {
+    padding-right: 80px;
+  }
+  .container-three .title i{
+    font-size: 22px;
+  }
+  .container-three .title h1{
+    font-size: 31px;
+  }
+  .container-three p span{
+    font-size: 21px;
+  }
+  .container-three .p-2-1{
+    font-size: 16px;
+  }
+  .shopp .shop-iconn {
+
+    margin-right: 100px;
+  }
+  .shopp{
+    margin-top: 10px;
+  }
+}
